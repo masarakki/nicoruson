@@ -1,15 +1,15 @@
-.column:nth-child(4) .status__content {
+.column[aria-label="ローカルタイムライン"] .status__content {
     margin-right: 40px !important;
 }
-.column:nth-child(4) .status button[title="ニコる"] {
+.column[aria-label="ローカルタイムライン"] .status button[title="ニコる"] {
     position: absolute !important;
     top: 30px !important;
-    left: 265px !important;
+    left: calc(100% - 45px) !important;
     width: 40px !important;
     height: 40px !important;
 }
 
-.column:nth-child(4) .status button[title="ニコる"] i {
+.column[aria-label="ローカルタイムライン"] .status button[title="ニコる"] i {
     width: 30px !important;
     height: 30px !important;
 }

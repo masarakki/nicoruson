@@ -13,3 +13,7 @@
     width: 30px !important;
     height: 30px !important;
 }
+
+.status__info {
+    margin-right: 40px !important;
+}

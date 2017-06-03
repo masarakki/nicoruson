@@ -1,7 +1,7 @@
-.column[aria-labelledby="ローカルタイムライン"] .status__content {
+.column .status__content {
     margin-right: 40px !important;
 }
-.column[aria-labelledby="ローカルタイムライン"] .status button[title="ニコる"] {
+.column .status button[title="ニコる"] {
     position: absolute !important;
     top: 30px !important;
     left: calc(100% - 45px) !important;
@@ -9,7 +9,7 @@
     height: 40px !important;
 }
 
-.column[aria-labelledby="ローカルタイムライン"] .status button[title="ニコる"] i {
+.column .status button[title="ニコる"] i {
     width: 30px !important;
     height: 30px !important;
 }
